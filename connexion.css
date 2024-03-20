@@ -1,0 +1,91 @@
+body {
+    background-color: #eceff1;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+body button:focus {
+    outline: 0;
+}
+
+.signInCard {
+    width: 400px;
+    background: #ffffff;
+    box-shadow: 2px 2px 8px 2px #e0e0e0, -2px -2px 8px 2px #e0e0e0;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 64px 50px;
+}
+
+.signInCard h1 {
+    font-weight: 900;
+    color: #7e57c2;
+    text-align: center;
+    margin: 0 auto 64px;
+}
+
+.signInCard form {
+    display: block;
+    margin: 0 auto;
+}
+
+.signInCard form input {
+    width: 100%;
+    height: 38px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #c0c0c0;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 1rem;
+}
+
+.signInCard a {
+    font-size: 1rem;
+    color: #7e57c2;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 64px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.signInCard a:hover {
+    color: #4d2c90;
+}
+
+.signInCard button {
+    display: block;
+    margin: 0 auto 64px;
+    background-color: #7e57c2;
+    width: 250px;
+    padding: 6px;
+    border: 1px solid #7e57c2;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.signInCard button:hover {
+    background-color: #4d2c90;
+    border: 1px solid #4d2c90;
+}
+
+.signInCard span {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+}

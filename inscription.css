@@ -1,0 +1,120 @@
+body {
+	background-color: #eceff1;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+}
+
+body button:focus {
+	outline: 0;
+}
+
+.signUpCard {
+	width: 500px;
+	
+	background: #ffffff;
+	box-shadow: 2px 2px 8px 2px #e0e0e0, -2px -2px 8px 2px #e0e0e0;
+	border-radius: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.signUpCard h1 {
+	font-weight: 700;
+	font-size: 2em;
+	text-align: center;
+	color: #7e57c2;
+	margin-bottom: 64px;
+	margin-top: 64px;
+}
+
+.signUpCard form {
+	display: block;
+	margin: 0 50px;
+}
+
+.name {
+	width: 190px;
+	height: 38px;
+	display: inline-block;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+	border: 1px solid #c0c0c0;
+	border-radius: 8px;
+	padding-left: 15px;
+	font-size: 1rem;
+}
+
+.radio_btn {
+	margin-bottom: 16px;
+}
+
+.signUpCard label {
+	font-size: 1rem;
+}
+
+.rem_textbox {
+	width: 100%;
+	height: 38px;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+	border: 1px solid #c0c0c0;
+	border-radius: 8px;
+	padding-left: 15px;
+	font-size: 1rem;
+}
+
+.signUpCard button {
+	display: block;
+	margin: 16px auto 32px;
+	background-color: #7e57c2;
+	border: 0;
+	width: 250px;
+	padding: 6px;
+	border-radius: 8px;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.signUpCard button:hover {
+	background-color: #4d2c90;
+}
+
+.signUpCard span {
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.signUpCard a {
+	font-size: 1rem;
+	color: #7e57c2;
+	cursor: pointer;
+	display: block;
+	margin-bottom: 64px;
+	text-align: right;
+	text-decoration: none;
+}
+
+.signUpCard a:hover {
+	color: #4d2c90;
+}
+
+.h-center {
+	text-align: center !important;
+}
+.error {
+	color: red;
+}
+@media (max-width: 600px) {
+	.signUpCard {
+		width: 90%;
+		padding: 40px 20px; 
+	}
+}
